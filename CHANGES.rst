@@ -1,8 +1,17 @@
 Change log
 ==========
 
-6.5 (unreleased)
+6.6 (unreleased)
 ----------------
+
+
+6.5 (2025-11-18)
+----------------
+
+- Fix setuptools configuration yet again to build missing cffi extension
+  module. The released wheels for version 6.4 will not work, they are missing
+  a compiled extension module.
+  (`#226 <https://github.com/zopefoundation/persistent/issues/226>`_)
 
 
 6.4 (2025-11-17)
